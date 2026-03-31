@@ -48,9 +48,10 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
 
-    // --- Supabase ---
-    implementation(platform("io.github.jan-tennert.supabase:bom:2.0.0"))
-    implementation("io.github.jan-tennert.supabase:postgrest-kt")
-    implementation("io.github.jan-tennert.supabase:gotrue-kt")
-    implementation("io.ktor:ktor-client-cio:2.3.7")
+// --- Supabase ---
+implementation(platform("io.github.jan-tennert.supabase:bom:3.0.0")) 
+implementation("io.github.jan-tennert.supabase:postgrest-kt")
+implementation("io.github.jan-tennert.supabase:auth-kt") 
+implementation("io.github.jan-tennert.supabase:realtime-kt") 
+implementation("io.ktor:ktor-client-cio:2.3.7")
 }

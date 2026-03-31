@@ -135,5 +135,19 @@ fun ProfileScreen() {
         ) {
             Text("ACTUALIZAR PERFIL", color = Color.White)
         }
-    }
+        Spacer(modifier = Modifier.height(16.dp))
+
+        TextButton(
+            onClick = {
+                // Cerramos la sesión de Firebase
+                com.google.firebase.auth.FirebaseAuth.getInstance().signOut()
+            },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("CERRAR SESIÓN", color = Color.White.copy(alpha = 0.6f))
+        }
+        // <<< HASTA AQUÍ >>>
+        
+    } // Esta llave cierra la Column
 }
+

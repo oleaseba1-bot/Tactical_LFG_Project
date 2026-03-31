@@ -5,11 +5,12 @@
 <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <application
+        <application
         android:allowBackup="true"
         android:label="Tactical LFG"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+        android:theme="@style/Theme.TacticalLFG">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
