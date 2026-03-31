@@ -25,8 +25,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = "17"
     }
 }
 
@@ -36,8 +40,17 @@ dependencies {
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.material3:material3")
 
+    // --- Navegación ---
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+
     // --- Firebase y Google Auth ---
-    implementation(platform("com.google.firebase:firebase-bom:32.7.0")) // El "Menú" de Firebase
-    implementation("com.google.firebase:firebase-auth-ktx")            // Autenticación
-    implementation("com.google.android.gms:play-services-auth:20.7.0") // Botón de Google
+    implementation(platform("com.google.firebase:firebase-bom:32.7.0"))
+    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+    // --- Supabase ---
+    implementation(platform("io.github.jan-tennert.supabase:bom:2.0.0"))
+    implementation("io.github.jan-tennert.supabase:postgrest-kt")
+    implementation("io.github.jan-tennert.supabase:gotrue-kt")
+    implementation("io.ktor:ktor-client-cio:2.3.7")
 }

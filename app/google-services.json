@@ -12,7 +12,20 @@
           "package_name": "com.seba.tacticallfg"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "189012957884-ctrgj43cbpg54sedkkihiap0f9mr45qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seba.tacticallfg",
+            "certificate_hash": "10af1e98f3739c07e89630f10b1f10b5a7466f14"
+          }
+        },
+        {
+          "client_id": "189012957884-hjqpcrc6em297tf5e0nvae94aqmv3i1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBZhOaNPDwUCTB8l0DilXy_prwjo4j6RaA"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189012957884-hjqpcrc6em297tf5e0nvae94aqmv3i1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
