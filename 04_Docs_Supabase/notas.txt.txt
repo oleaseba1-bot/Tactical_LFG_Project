@@ -1,0 +1,9 @@
+--- CONFIGURACIÓN TACTICAL LFG ---
+
+ID DEL PROYECTO: xdhpbfezaemacvtfsyec
+URL DE SUPABASE: https://xdhpbfezaemacvtfsyec.supabase.co
+ANON KEY (PÚBLICA): [sb_publishable_ZJ1ztZqrwia0TKUSByyt7A_EzFZ6Vmp]
+
+----------------------------------
+TABLA: profiles
+COLUMNAS: id, created_at, username, riot_id, rank, main_agent

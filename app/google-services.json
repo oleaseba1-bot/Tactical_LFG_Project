@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189012957884",
+    "project_id": "tactical-lfg",
+    "storage_bucket": "tactical-lfg.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189012957884:android:7c57cdc4d0b6cce03f0eb9",
+        "android_client_info": {
+          "package_name": "com.seba.tacticallfg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZhOaNPDwUCTB8l0DilXy_prwjo4j6RaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
